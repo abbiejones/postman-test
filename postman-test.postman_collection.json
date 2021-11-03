@@ -10,7 +10,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://www.google.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
 			},
 			"response": []
 		},
@@ -19,7 +27,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://www.opensesame.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"opensesame",
+						"com"
+					]
+				}
 			},
 			"response": []
 		}
