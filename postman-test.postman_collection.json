@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "a49f6489-b7e5-46c9-8a0b-575585935964",
+		"name": "postman-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "google",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "opensesame",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
