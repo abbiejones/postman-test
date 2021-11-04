@@ -20,6 +20,7 @@ jobs:
           reporters: cli
           delayRequest: 5
           environment: delivery-api-service-partner.postman_environment.json
+          workingDir: ./test/
       
       - name: Output summary to console
         run: echo ${{ steps.run-newman.outputs.summary }}
