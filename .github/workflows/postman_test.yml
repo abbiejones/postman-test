@@ -18,7 +18,8 @@ jobs:
         with:
           collection: postman-test.postman_collection.json
           reporters: cli
-          delayedRequest: 5
+          delayRequest: 5
+          environment: delivery-api-service-partner.postman_environment.json
       
       - name: Output summary to console
         run: echo ${{ steps.run-newman.outputs.summary }}
